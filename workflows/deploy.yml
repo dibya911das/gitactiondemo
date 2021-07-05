@@ -18,4 +18,4 @@ jobs:
           password: ${{ secrets.PROD_PASSWORD }}
           port: ${{ secrets.PROD_PORT }}
           source: "*"
-          target: "/home/ubuntu/code/"	#Destination path of the server
+          target: "/var/www/html/"	#Destination path of the server
